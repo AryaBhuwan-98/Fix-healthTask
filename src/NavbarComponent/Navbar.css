@@ -1,0 +1,35 @@
+.navbarrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    margin: 0px 40px;
+    
+}
+.navbarrapper ul{
+ display: flex;
+ align-items: center;
+}
+.navbarrapper ul li{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.Booknow{
+    width:auto;
+    height: auto;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbarrapper h3{
+    width: auto;
+    height: auto;
+    background-color:blueviolet;
+    padding: 10px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.googleReview {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 50px;
+  }
+  .googleReview .google {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  

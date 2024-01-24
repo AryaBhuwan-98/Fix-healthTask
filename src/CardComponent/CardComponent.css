@@ -1,0 +1,46 @@
+.cardItem {
+    border: 1px solid red;
+    width: 300px;
+    height: auto;
+    background-color: aliceblue;
+  }
+  .alignCard {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sliderComponent {
+    padding: 0px 40px;
+    position: relative;
+  }
+  .slick-arrow {
+    content: "" !important;
+    width: 50px !important;
+    height: 50px !important;
+    /* border: 1px solid red !important; */
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .slick-prev {
+    position: absolute !important;
+    left: 50px;
+    z-index: 100;
+  }
+  
+  .slick-next {
+    position: absolute !important;
+    right: 100px;
+    z-index: 100;
+  }
+  .meetButton {
+    margin-top: 50px;
+  }
+  .meetButton button {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+  }
